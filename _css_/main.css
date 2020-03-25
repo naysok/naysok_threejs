@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans Japanese', Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  overflow: hidden;
+  text-align: left;
+  background-color: #FFF;
+}
+
+.dev {
+  width: 80%;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
