@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://threejs.naysok.org/$1 [R=301,L]
+
+<Files ~ "\.md$">
+  deny from all
+</Files>
