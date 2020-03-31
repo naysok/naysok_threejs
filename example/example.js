@@ -23,6 +23,9 @@ function init() {
 
     // show origin
     scene.add(new THREE.AxesHelper(20));
+
+    // CONTROLS
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
     // ---------- Render Env ---------- //
 
 
