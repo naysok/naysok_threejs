@@ -5,7 +5,7 @@
 body {
   font-family: 'Noto Sans Japanese', Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
   background-color: #FFF;
 }
 
@@ -14,4 +14,16 @@ body {
   margin: auto;
   margin-top: 35px;
   margin-bottom: 35px;
+}
+
+a {
+  color: gold;
+}
+
+#dev {
+  color: #000000;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 5px;
 }
