@@ -1,4 +1,4 @@
-var dev = document.getElementById("dev");
+var dev = document.getElementById("devMsg");
 var stats = initStats();
 var sceneCount = 0;
 
