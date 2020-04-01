@@ -1,3 +1,13 @@
+/* https://www.palettable.io/FCF2D2-278C62-4E6680-B5C2A1-03439E */
+
+:root {
+  --color0: #FCF2D2;
+  --color1: #278C62;
+  --color2: #4E6680;
+  --color3: #B5C2A1;
+  --color4: #03439E;
+}
+
 * {
   margin: 0;
 }
@@ -7,6 +17,7 @@ body {
   overflow: hidden;
   text-align: center;
   background-color: #FFF;
+  color: var(--color2);
 }
 
 .dev {
@@ -16,12 +27,13 @@ body {
   margin-bottom: 35px;
 }
 
-a {
-  color: gold;
+a,
+a:link,
+a:visited {
+  color: var(--color1);
 }
 
 #dev {
-  color: #000000;
   position: absolute;
   top: 0px;
   width: 100%;
